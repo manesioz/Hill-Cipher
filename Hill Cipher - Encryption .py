@@ -44,8 +44,6 @@ encrypted_list = []
 for j in range(len(num_vector)): 
     encrypted_list.append(np.matmul(det_checker(X), num_vector[j]))
     
-print(encrypted_list)
-print(encrypted_list[0]%26)
 
 encrypted_modlist = [] 
 for k in range(len(num_vector)): 
