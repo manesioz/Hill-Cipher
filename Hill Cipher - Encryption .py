@@ -1,5 +1,5 @@
 '''
-A simple implementation of a Hill Cipher, which is a polygraphic substitution which using linear algebra
+A simple implementation of a Hill Cipher, which is a polygraphic substitution cipher which uses linear algebra
 '''
 
 
