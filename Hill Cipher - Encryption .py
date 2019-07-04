@@ -1,15 +1,11 @@
-
-# coding: utf-8
-
-# In[ ]:
+'''
+A simple implementation of a Hill Cipher, which is a polygraphic substitution which using linear algebra
+'''
 
 
 import random 
 import math 
 import numpy as np
-
-
-# In[ ]:
 
 
 #make encryption matrix
@@ -24,9 +20,6 @@ def det_checker(A):
         det_checker(A) 
 
 det_checker(X) 
-
-
-# In[ ]:
 
 
 #prepare the string for computation 
